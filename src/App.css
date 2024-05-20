@@ -1,0 +1,77 @@
+body {
+  background-image: url(./assets/m.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: rgb(152, 20, 184);
+  color: white;
+  border-radius: 5px;
+  display: block;
+}
+
+button:hover {
+  background-color: rgb(171, 26, 154);
+  box-shadow: 3px 3px 3px rgb(125, 128, 125);
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  color: black;
+}
+
+#bt {
+  float: right;
+  margin-left: 30px;
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+#bt:hover {
+  background-color: rgb(171, 26, 154);
+  box-shadow: 3px 3px 3px rgb(125, 128, 125);
+}
+
+#w {
+  padding: 20px 50px;
+  box-shadow: 3px 5px 5px rgb(125, 128, 125);
+  width: fit-content;
+  margin-left: 400px;
+  background-color: rgb(134, 215, 41);
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+li {
+  background-color: rgb(134, 215, 41);
+  background-image: url(./assets/m3.png);
+  width: fit-content;
+  padding: 10px;
+  list-style-type: none;
+  margin-bottom: 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 3px solid;
+  display: inline-block;
+  margin-right: 40px;
+  color: black;
+}
+
+#inp {
+  background-color: rgb(242, 235, 235);
+}
+
+#inp:hover {
+  background-color: ghostwhite;
+  box-shadow: 3px 3px 3px rgb(125, 128, 125);
+}
